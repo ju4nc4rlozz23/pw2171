@@ -1,0 +1,102 @@
+<!-- HTML5: ¿Qué incuye?
+-Video
+-Audio
+-Canvas (dibujart)
+-Guardar datos en navegador
+-Etiquetas Semánticas (MOST IMPORTANT) Nos interesa que es lo qué significan 
+-etc.
+
+El lenguaje HTML 4.0 es una especificación del lenguaje html aprobada por el World Wide Web Consortium
+
+¿Como distinguir entre HTML basico y HTML5
+DOCTYPE ES EL INDICADOR QUE LE DICE AL DOCUMENTO QUE ES HTML5
+
+www3c
+robots.txt  ahi se pueden poner las rutas relativas de archivos y carpetas que no quieras que google indexe 
+SEO - (Search Engine Optimization/Optimizacion en motores de busqueda): Hace que las paginas puedan ser optimizadas de tal forma que en los motores de busqueda salga más rapido o de los primeros al ser buscado en google. 
+
+
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+
+</body>
+</html>
+
+
+Header, Nav, Aside, Section, Article, Footer. Son etiquetas semánticas ya que no afectan directamente a la pantalla.
+
+ -->
+
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="UTF-8"> <!-- Etiqueta semántica que sí indica algo de la estructura (le indica los caracteres que va a poder soportar-->
+	<title></title>
+</head>
+<body>
+	<header> <!-- Etiqueta Semántica -->
+		<h1> Título de la Aplicació n</h1> <!-- Se recomienda para que se distinga y que google entre y busque en el header y exista el h1 para que el titulo se distinga (Se recomienda solo usar un H1) -->
+		Logo de la empresa
+		<img src="" alt="">
+	</header>
+
+	Menú de Navegación <br>
+	<nav> <!-- ETIQUETA SEMÁNTICA Hacer un menú de navegación y así el buscador no lo confunda con información -->
+		Etiquetas para navegar entre las opciones de la página.
+	</nav>
+
+	<!-- Los article pueden ponerse dentro y fuera de los article (No se pueden poner sections dentro de los articles ni sections dentro de section) 
+
+	Una sección encierra un article
+	-->
+
+	<article>Información Distinta</article>
+
+	<!-- <div>
+		Sirve para hacer una división lógica de elementos en pantalla para lo que se me ocurra 
+	</div>	 -->
+
+	<section>
+
+		<main>
+			<article>
+				Información 
+			</article>
+		</main> <!-- Si contiene la informacion mas importante de la pagina, para que aparezca en los buscadores, utilizamos la etiqueta main-->
+		
+		<!-- Aside = Es una etiqueta que muestra información tangencial (información que a nadie le importa) de la página -->
+		<aside> 
+			<article>
+			Información Distinta
+		</article>
+		<article>
+			Información Distinta
+		</article>
+		<article>
+			Información Distinta
+		</article>
+		<article>
+			Información Distinta
+		</article>
+		</aside>
+
+	</section>
+
+	<section></section>
+	<section></section>
+	<section></section>
+
+	<footer> <!-- Pie de página -->
+		Información de la Empresa
+		Privacidad
+		Dirección
+		Derechos reservados, etc... 
+	</footer>
+
+</body>
+</html>
