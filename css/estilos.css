@@ -13,14 +13,52 @@ Todos ellos en orden alfabético.
 Tanto elementos como atributos. 
 */
 
-
 /*//elementos
 //aqui adentro afectamos los atributos del body*/
 body{ 
 	/*atributo:valor;*/
 	background: rgba(255,50,80,1); /*green, #RRGGBB, rgb(255,255,255), rgba(255,255,255,1) la a es por la transparencia*/
-	border:1px solid red;
+	
+	border:1px solid black;
 	color: white; /*color de letra*/
 	font-size: 16; /*em,% son unidades de medida. La unidad de medida estandar de las paginas en 16px*/
-	max-width: 1024px; /*1024 es el valor estandar (tablets)*/
+	
+	margin: 0px auto;
+	max-width: 1024px; /*24 es el valor estandar (tablets)*/
 }
+
+header{
+	border: 1px solid blue;
+	text-align: center; 
+}
+
+/*SIEMPRE QUE QUIERO MOVER UNA CAJA ES CON MARGIN POR QUE MUEVES LA CAJA CON SU CONTENIDO*/
+header img{ 
+	/*height: 100px; */
+	/*padding: 5px;*/
+	/*padding: 5px 10px; (primer parametro es arriba y abajo y el segundo izquierda y derecha)*/
+	/*padding: 5px 10px 2px 8px;*/
+	float: right; /*Lo mueve completamente a la derecha (dentro de su caja)*/
+	width: 90px; /*si cambiamos el ancho de una imagen el alto se cambia proporcionalmente*/
+	margin: -70px 20px 0px 0px;
+}
+
+/*El modelo de cajas agrega dos caracteristicas:
+-
+-
+*/
+
+header nav ul li{
+	/*border: 1px solid yellow;*/
+	background: blue;
+	border-radius: 10px;
+	color: yellow;
+	display: inline-block;
+	margin: 0px 10px 0px 0 px;
+	padding: 5px 10px;
+	width: 84px;
+
+}
+
+
+
