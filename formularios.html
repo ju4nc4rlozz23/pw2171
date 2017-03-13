@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<!-- Inyección SQL (?) -->
+	<!-- %20 
+		El "required" te dice que tienes que llenar ese campo a huevo
+	-->
+
+	Formulario: Contenedor que sirve para 
+	encapsular métodos de entrada de datos
+	del usuario. <br>
+	En el forumlario se puede: <br>
+	<ol>
+		<li>Capturar datos</li>
+		<li>Validar lo que se ingresa</li>
+		<li>Enviar a proceso</li>
+		<li>Reiniciar la captura</li>
+	</ol>
+	<form action="procesa.html" method="post">   <!-- con el post no se muestra la informacion en el url  -->
+
+	 	<!--  -->
+ 		<input type="text" name="nombre" placeholder="Nombre" title="Nombre de la Persona"  pattern="[a-zA-Z]{4}[0-9]{6}[A-Z]{2}[0-9]{1}" required> <!-- * conjunto vacio and stuff-->
+
+ 		<input type="text" name="ncontrol" placeholder="Número de Control" title="Número de Control del Estudiante" required>
+
+ 		<input type="password" name="clave" placeholder="Ingrese Contraseña" required>
+
+ 		<input type="number" name="promedio" placeholder="Promedio" title="Promedio hasta el semestre anterior" required>
+
+ 		<input type="date" name="perro">
+ 		<input type="color">
+ 		<input type="email">
+
+		<input type="submit" value="Enviar">
+		<input type="reset" value="Borrar Datos">		
+	</form>
+
+
+</body>
+</html>
