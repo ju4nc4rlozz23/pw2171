@@ -1,0 +1,65 @@
+body{
+	font-size: 16px;  /*1em*/
+	margin: 0 auto; /*centramos el body  ---- el centro hace que no tenga margenes verticales (?)*/ 
+	max-width: 1078px; /*Empresa-cliente*/
+	min-width: 1078px; /*lo minimo que puedes reducirte es a esta resolucion*/
+
+
+
+}
+
+header input{
+	float: right;
+	margin-right: -200px; 
+	margin-top: 15px;
+	position: relative; /* TIPOS DE POSICIONES: static, absolute, fixed (El fixed hace que se quede fijo incluso al mover)
+		(Si no ponemos en position os hace static) se empieza a implementar un eje Z (Z-Index) lo que da profundidad*/ 
+}
+
+header nav{
+	/*border: 1px solid green;*/
+	/* podemos usar margin, text align, 0 auto*/
+	margin-left: 220px;
+
+}
+
+header nav ul li{
+	border-bottom: 1px solid gray; /*Le pusimos un borde abajo de la cajita de cada elemento de la lista*/
+	color: gray;
+	display: inline-block;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.8em; 
+	margin-right: 15px;
+	/*text-decoration: underline;  esta muy pegada la linea*/ 
+}
+
+#primerseccion{
+	height: 318px;
+
+}
+#primerseccion article{
+	/*border: 1px solid green;*/
+	display: inline-block;
+	vertical-align: top;
+}
+
+#granthams{ /*logo de la empresa*/	
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+#paint{
+	float: right;
+}
+
+#secc01art01{
+	width: 50%;
+}
+
+#secc01art01 img{
+	width:100%;
+}
+
+#secc01art02{
+	width: 20%;
+}
