@@ -1,0 +1,25 @@
+body{
+	font-size: 16px;  /*1em*/
+	max-width: 1024px;
+	margin: 0 auto;  /*Centrar */
+	border: 1px solid green;
+}
+
+header nav ul{
+	background: orange;
+	border-radius: 5px;
+	padding: 10px;
+
+}
+header nav ul li{
+	margin-top: 3px;
+	display: inline-block;
+	padding-right: 15px;
+}
+
+#logo{
+	margin-left: 10px;
+}
+
+
+
