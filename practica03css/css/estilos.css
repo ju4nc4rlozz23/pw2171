@@ -14,12 +14,74 @@ header nav ul{
 header nav ul li{
 	margin-top: 3px;
 	display: inline-block;
-	padding-right: 15px;
+	padding-right: 25px;
 }
 
 #logo{
 	margin-left: 10px;
 }
 
+#art01{ 
+	border: 1px solid green;
+	margin-left: 20px;
+}
 
+#art02{
+	border: 1px solid green;
+	display: inline-block;
+	width: 35%;
+}
 
+#art22{
+	border: 1px solid red;
+	display: inline-block;
+	vertical-align:top;
+	width: 60%;
+
+}
+
+/*publicidad*/
+#art03{
+	border: 1px solid blue;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* Buscador*/
+#art04{
+	border: 1px solid blue;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+
+}
+
+/*Categorias*/
+#art05{
+	border: 1px solid green;
+	margin-top: 20px;
+}
+
+#megart1{
+	border: 1px solid green;
+	display: inline-block;
+	width: 63%;
+}
+
+#megart2{
+	border:1px solid green;
+	display: inline-block;
+	margin-left:10px;
+	vertical-align: top;
+	width: 33%;
+}
+
+.Encabezados{
+	padding: 10px 117.5px 10px 117.5px;
+	background: orange;
+	color: white;
+	border-radius: 15px;
+	font-weight: bold;
+}
