@@ -1,0 +1,19 @@
+body{
+	font-size: 16px;  /*1em*/
+	max-width: 1024px;
+	margin: 0 auto;  /*Centrar */
+	border: 1px solid green;
+}
+
+header{
+	background: blue;
+}
+
+header nav ul{
+	background: gray;
+}
+
+header nav ul li{
+	float: right;
+	display: inline-block;
+}
