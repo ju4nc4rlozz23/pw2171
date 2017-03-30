@@ -2,18 +2,108 @@ body{
 	font-size: 16px;  /*1em*/
 	max-width: 1024px;
 	margin: 0 auto;  /*Centrar */
-	border: 1px solid green;
 }
 
 header{
-	background: blue;
+	background: #265D8E;
+	margin-bottom: 10px;
+	text-align: center;
 }
 
 header nav ul{
-	background: gray;
+	background: #ECECEE;
+	text-align: right;
+	margin-bottom: 0px;
 }
 
 header nav ul li{
-	float: right;
 	display: inline-block;
+}
+
+#Izquierda,#Derecha{
+	margin: 0px 5px;
+}
+
+#Izquierda{
+	width: 227px;
+	display: inline-block;
+	vertical-align: top;
+}
+#Derecha{
+	width: 75%;
+	display: inline-block;
+	border: 1px solid green;
+}
+
+#Progress,#Links{
+	padding-right: 20px;
+}
+
+#Links{
+	border: 1px solid green;
+	background: #20507B;
+	color: white;
+}
+
+#Links ul{
+	list-style: none;
+}
+
+#Progress{
+	border: 1px solid green;
+	margin-top: 5px;
+}
+
+#Progress img{
+	/*vertical-align: middle;
+*/
+
+}
+
+#Simple{
+	border: 1px solid;
+	text-align: center;
+}
+ 
+#Simple1,#Simple2,#Simple3,#Simple4{
+	border: 1px solid;
+	border-radius: 8px;
+	color:white;
+	width: 17%;
+	display:inline-block;
+	text-align: center;
+	padding: 5px 26px 10px 26px;
+}
+
+#Simple1{
+	background:#23A72B;
+}
+
+#Simple2{
+	background:#216EA7;
+}
+
+#Simple3{
+	background:#7B25A8;
+}
+
+#Simple4{
+	background:#A41C1F;
+}
+
+.User{
+	background:#4C6DAC;
+	border: 1px solid green;
+	display: inline-block;
+	text-align: center;
+}
+
+.Progress{
+	background:#356B98;
+	color:white;
+	padding: 13px 25px 13px 22px;
+}
+
+.Progress img{
+	float: left;
 }
