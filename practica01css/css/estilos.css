@@ -16,11 +16,9 @@ form input{ /* Todos los input dentr del form*/
 }
 
 form input[type="button"]{
-	background: green;
+	
 	color:white;
-
 }
-
 
 header{
 	background: #B3D8EB;

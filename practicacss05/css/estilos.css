@@ -163,20 +163,40 @@ nav ul img{
 	list-style: none;
 }
 
-.Titulos{
+.TitulosB{
 	font-size: 1.4em;
 	font-weight: bold;
+	color:white;
 }
 
-.Textos{
+.TextosB{
 	padding-bottom: -10px;
 	font-size: .8em;
+	color:white;
+}
+
+.TitulosG,.TitulosLG{
+	font-size: 1.4em;
+	font-weight: bold;
+	color:gray;
+}
+.TextosG,.TextosLG{
+	padding-bottom: -10px;
+	font-size: .8em;
+	color:gray;
 }
 
 .More{
 	font-size:.9em;
 	font-weight: bold;
+	color:white;
 }
+
+
+
+
+
+
 
 .negrita{
 	font-weight: bold;

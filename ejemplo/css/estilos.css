@@ -1,0 +1,144 @@
+body{
+	font-size: 16px;  /*1em*/
+	max-width: 1024px;
+	margin: 0 auto;  /*Centrar */
+}
+
+header{
+	padding-bottom: 30px;
+	border-bottom:2px dotted gray;
+}
+
+nav ul{
+	list-style: none;
+	margin-top: 30px;
+	margin-left: -22px;
+}
+
+nav ul li{
+ 	display:inline-block;
+ 	font-weight: bold;
+ 	margin-right: 10px;
+ 	font-family: 'Dosis', sans-serif;
+}
+
+#logo{
+	width: 20%;
+	margin-left: 20px;
+	margin-top: 25px;
+	
+}
+
+.imagenes{
+	width: 4%;
+	margin-top: 5px;
+	margin-right: 10px;
+	float:right;
+}
+
+#gotoshop,#buy{
+	float:right;
+}
+
+#gotoshop{
+	margin-right: -200px;
+	margin-top: 50px;
+	width: 15%;
+}
+
+#buy{
+	width: 5%;
+	margin-top: 90px;
+	margin-right: 150px;
+}
+
+#Izq{
+	width: 55%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#Top img{
+	width: 100%;
+}
+
+#Der{
+	width: 35%;
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 50px;
+}
+
+#bici{
+	width:110%;
+	vertical-align: top;
+}
+
+#years{
+	position: relative;
+	bottom: 75px;
+	width: 30%;
+}
+
+#Top {
+	padding-bottom: 50px;
+	margin-left: 15px;
+	border-bottom:2px dotted gray;
+}
+#Bot{
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 20px;
+	margin-left:15px;
+	color:gray;
+}
+
+#Bot img{
+	width:45%;
+	margin-left: 15px
+}
+
+footer{
+	margin-top: 30px;
+}
+
+#redes{
+	text-align: middle;
+	margin-bottom: 30px;
+}
+
+#ArtFoot1,#ArtFoot2,#ArtFoot3,#ArtFoot4,#ArtFoot5{
+	width: 19%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 5px;
+	color:gray;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#ArtFoot1 ul,#ArtFoot2 ul,#ArtFoot3 ul,#ArtFoot4 ul,#ArtFoot5 ul{
+	list-style: none;
+}
+
+#ArtFoot5{
+	margin-left: 5px;
+}
+
+.Titulo{
+	font-weight: bold;
+	border-bottom: 1px solid;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	margin-left: 40px;
+	border: 1px solid;
+}
+
+.CN,.CA{
+	font-size: 3em;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.CA{
+	color: yellow;
+}
+
