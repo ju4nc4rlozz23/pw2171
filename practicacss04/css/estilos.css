@@ -6,7 +6,6 @@ body{
 
 header{
 	background: #265D8E;
-	margin-bottom: 10px;
 	text-align: center;
 }
 
@@ -20,8 +19,12 @@ header nav ul li{
 	display: inline-block;
 }
 
+section{
+	background: #ECECEE;
+}
+
 #Izquierda,#Derecha{
-	margin: 0px 5px;
+	margin: 10px 5px;
 }
 
 #Izquierda{
@@ -29,18 +32,21 @@ header nav ul li{
 	display: inline-block;
 	vertical-align: top;
 }
+
 #Derecha{
+	border-radius: 5px;
 	width: 75%;
 	display: inline-block;
-	border: 1px solid green;
+	background: white;
+	padding-top: 15px;
 }
 
 #Progress,#Links{
 	padding-right: 20px;
+	vertical-align: top;
 }
 
 #Links{
-	border: 1px solid green;
 	background: #20507B;
 	color: white;
 }
@@ -50,23 +56,43 @@ header nav ul li{
 }
 
 #Progress{
-	border: 1px solid green;
+	margin-top: 5px;
+	border: 1px solid #E2A6A4;
+}
+
+#Prog,#Prog2{
+	display:block;
+	padding-right: 20px;
+	width: 100%;
+}
+
+#Prog{
+	text-align: center;
+	background:#356B98;
+}
+
+#Prog2{
+	background:white;
+}
+
+#Prog2 img{
+	vertical-align: middle;
+	width:99%;
+	margin-top: 10px;
+	margin-left: 7px;
+}
+
+#Simple,#Panels,#Usuarios{
 	margin-top: 5px;
 }
 
-#Progress img{
-	/*vertical-align: middle;
-*/
-
-}
-
-#Simple{
-	border: 1px solid;
+#Simple{;
 	text-align: center;
+	margin-bottom: 4px;
+
 }
  
 #Simple1,#Simple2,#Simple3,#Simple4{
-	border: 1px solid;
 	border-radius: 8px;
 	color:white;
 	width: 17%;
@@ -91,19 +117,55 @@ header nav ul li{
 	background:#A41C1F;
 }
 
+#Panels{
+	text-align: center;
+	display: block;	
+}
+
+#Usuarios{
+	vertical-align: top;
+}
+
+.Barra{
+	font-size: 1.1em;
+	color: gray;
+	margin-left: 12px;
+}
+
+.font{
+	margin-left: 15px;
+	color:gray;
+}
+
 .User{
 	background:#4C6DAC;
-	border: 1px solid green;
 	display: inline-block;
 	text-align: center;
+	padding: 15px 20px;
+	width: 18%;
+	margin-left: 7px;
+	color: white;
+	font-size: 1.3em;
+	
+}
+
+.User img{
+	width: 100%;
+}
+
+.User input{
+	background: #86AAC7;
+	border-radius: 5px;
+	color: white;
+	padding: 5px 10px;
 }
 
 .Progress{
 	background:#356B98;
 	color:white;
-	padding: 13px 25px 13px 22px;
 }
 
 .Progress img{
 	float: left;
 }
+

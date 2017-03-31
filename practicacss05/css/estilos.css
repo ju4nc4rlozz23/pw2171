@@ -1,0 +1,207 @@
+body{
+	font-size: 16px;  /*1em*/
+	max-width: 1024px;
+	margin: 0 auto;  /*Centrar */
+}
+
+header{
+	border: 1px black solid;
+}
+
+header input{
+	margin-top: 10px;
+	margin-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+nav{
+	display: inline-block;
+	width:80%;
+}
+
+nav ul{
+	list-style: none;
+	margin-left: 20px;
+	margin-top: 10px;
+	
+}
+
+nav ul img{
+	width: 100%;
+	display: inline-block;
+}
+
+#logo{
+	background: #2B2B2B;
+}
+
+#lista{
+	color:gray;
+	background:#2B2B2B;
+	margin-left: 30px;
+}
+
+#lista ul{
+	list-style: none;
+}
+
+#Top,#Middle,#Bot{
+	b
+}
+
+#Top{
+	display: inline-block;
+	vertical-align: top;
+	background: #2B2B2B;
+	padding-bottom:15px;
+}
+
+#Izq,#Der{
+	display: inline-block;	
+	vertical-align: top;
+}
+
+#Izq{
+	width: 20%;
+	background: #2B2B2B;
+}
+
+#Izq img{
+	width: 80%;
+}
+
+#Der{
+	width: 79%;
+	background: #2B2B2B;
+}
+
+#Rojo,#Amarillo,#Gris,#Blanco{
+	width: 21.1%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 8px;	
+	padding: 0px 10px;
+	height: 240px;
+}
+
+#Amarillo{
+	background: #AFCA52;
+	margin-left: 50px;
+}
+#Gris{
+	
+	background:#595959;
+	margin-left: -5px;
+
+}
+#Rojo{
+	background: #D32C3E;
+	margin-left: -6px;
+
+}
+#Blanco{
+	background: #D5D5D5;
+	margin-left: -6px;
+}
+
+
+#Middle{
+	background:#2B2B2B;
+	padding: 0px 20px;
+}
+
+#newR,#newG,#newB{
+	display: inline-block;
+	background: #2B2B2B;
+	margin-left: 40px;
+	width: 32%;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: -10px;
+	border-bottom:1px dotted white;
+}
+
+#newR img,#newG img,#newB img{
+	width: 75%;
+	float: right;
+}
+
+#newR{
+	margin-left: -5px;
+}
+
+#newG{
+	margin-left: 15px;
+}
+
+#newB{
+	margin-left: 15px;
+}
+
+#Bot{
+	background: #2B2B2B;
+}
+
+#Uno,#Dos,#Tres{
+	width:25%;
+	display: inline-block;
+	vertical-align: top;
+	background: #2B2B2B;
+	padding: 0px 10px 30px 0px;
+	margin-left: 60px;
+	margin-top: 5px;
+}
+
+#Dos ul li{
+	color: gray;
+	margin-top: 2px;
+}
+
+#Dos ul{
+	margin-top: -1px;
+	list-style: none;
+}
+
+.Titulos{
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.Textos{
+	padding-bottom: -10px;
+	font-size: .8em;
+}
+
+.More{
+	font-size:.9em;
+	font-weight: bold;
+}
+
+.negrita{
+	font-weight: bold;
+	color: #C5C5C5;
+}
+
+.gris{
+	color:gray;
+}
+
+.mensaje{
+ 	color:#C5C5C5;
+}
+
+#Bot input{
+	background: #2B2B2B;
+	border-color:#2B2B2B;
+	color:#C5C5C5;
+	margin-top: 10px;
+	float: right;
+}
+.dato{
+	color:#595959;
+}
+
+#correo{
+	color:#156378;
+}
