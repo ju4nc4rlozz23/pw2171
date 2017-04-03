@@ -1,0 +1,152 @@
+/* ALUMNO: RUIZ SALAZAR JUAN CARLOS*/
+body{
+	font-size: 16px;  /*1em*/
+	max-width: 1024px;
+	margin: 0 auto;  /*Centrar */
+}
+
+header{
+	padding-bottom: 30px;
+	border-bottom:2px dotted gray;
+}
+
+nav ul{
+	list-style: none;
+	margin-top: 30px;
+	margin-left: -22px;
+}
+
+nav ul li{
+ 	display:inline-block;
+ 	font-weight: bold;
+ 	margin-right: 15px;
+ 	font-family: 'Open Sans', sans-serif;
+
+}
+
+#logo{
+	width: 20%;
+	margin-left: 20px;
+	margin-top: 25px;
+	
+}
+
+.imagenes{
+	width: 4%;
+	margin-top: 5px;
+	margin-right: 10px;
+	float:right;
+}
+
+#gotoshop,#buy{
+	float:right;
+}
+
+#gotoshop{
+	margin-right: -30px;
+	margin-top: 60px;
+	width: 15%;
+}
+
+#buy{
+	width: 5%;
+	margin-top: 90px;
+	margin-right: 20px;
+}
+#Izq{
+	width: 55%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#Top {
+	padding-top: 10px;
+	;
+	margin-left: 15px;
+	border-bottom:2px dotted gray;
+	font-weight: bold;
+}
+
+#Bot{
+	color:gray;
+	margin-top: 10px;
+	margin-left: 15px;
+	font-family: 'Slabo 27px', serif;
+
+}
+
+#Bot img{
+	width:48%;
+	margin-left: 5px;
+}
+
+#Der{
+	width: 35%;
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 50px;
+}
+
+#bici{
+	width:105%;
+	margin-left: 20px;
+	vertical-align: top;
+}
+
+#years{
+	position: relative;
+	bottom: 75px;
+	width: 30%;
+}
+
+#redes{
+	margin-bottom: 20px;
+	margin-left: 15px;
+	color:gray;
+}
+
+#redes img{
+	vertical-align: middle;
+}
+
+#ArtFoot1,#ArtFoot2,#ArtFoot3,#ArtFoot4,#ArtFoot5{
+	width: 19%;
+	display: inline-block;
+	vertical-align: top;
+	color:gray;
+}
+
+#ArtFoot1 ul,#ArtFoot2 ul,#ArtFoot3 ul,#ArtFoot4 ul,#ArtFoot5{
+	list-style: none;
+}
+
+.Title{
+	margin-left: 40px;
+	border-bottom: 1px solid gray;
+	padding-bottom: 8px;
+	padding-right: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.TitleF{
+	border-bottom: 1px solid gray;
+	padding-bottom: 8px;
+	padding-right: 80px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.CA,.CN{
+	font-size: 4em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.CA{
+	color:#78F04C;
+}
+
+
+
+
+
+
