@@ -1,0 +1,30 @@
+json -> notacion de objetos de java script
+	puede encender y apagar eventos
+$ funciona como sobrenombre para el jquery
+
+JSON = JavaScript Object Notation
+conjunto[0]
+conjunto:[
+	llave:valor,
+	llave2:valor,
+	llave3: {
+		llave4:valor,
+		llave5:valor
+	}
+],
+[
+	llave:valor,
+	llave2:valor,
+	llave3: {
+		llave4:valor,
+		llave5:valor
+	}
+],
+[
+	llave:valor,
+	llave2:valor,
+	llave3: {
+		llave4:valor,
+		llave5:valor
+	}
+]
