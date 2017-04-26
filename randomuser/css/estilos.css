@@ -3,9 +3,27 @@ body{
 	text-align: center;
 }
 
+body section article{
+	display: inline-block;
+}
+
+
 img{
 	border-radius:200px;
 	width: 200px;
+}
+
+#art1{
+	background: black;
+	vertical-align: top;
+	width:30%;
+	
+}
+
+#art2{
+	background: red;
+	vertical-align: top;
+	width: 65%;
 }
 
 #txtNombre{
