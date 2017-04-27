@@ -18,11 +18,11 @@ function datosRandom(){
 	  						data.results[0].location.state  +", "+
 	  						data.results[0].location.postcode)
 	  	$("#email").html(data.results[0].email)
-	  	$("#login").html("Username: "+data.results[0].login.username +" "+
-	  					 "Password: "+data.results[0].login.password +" "+
-	  					 "Salt: "    +data.results[0].login.salt     +" "+
-	  					 "MD5: "     +data.results[0].login.md5      +" "+
-	  					 "Sha1: "    +data.results[0].login.sha1     +" "+
+	  	$("#login").html("Username: "+data.results[0].login.username +"<br>"+
+	  					 "Password: "+data.results[0].login.password +"<br>"+
+	  					 "Salt: "    +data.results[0].login.salt     +"<br>"+
+	  					 "MD5: "     +data.results[0].login.md5      +"<br>"+
+	  					 "Sha1: "    +data.results[0].login.sha1     +"<br>"+
 	  					 "Sha256: "  +data.results[0].login.sha256)
 	  	$("#dob").html(data.results[0].dob)
 	    $("#regi").html(data.results[0].registered)
